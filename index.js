@@ -1,5 +1,5 @@
 var Eris = require('eris'); // Define the Eris Library
-var bot = new Eris(); // Token Type: String
+var bot = new Eris('TOKEN'); // Token Type: String
 
 bot.on('ready', () => { // Same as D.js Ready Event
     console.log('Ready!')
